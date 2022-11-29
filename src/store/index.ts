@@ -1,5 +1,8 @@
 import { createStore } from 'vuex'
 
+import cities from "./cities"
+import form from "./form"
+
 export default createStore({
   state: {
   },
@@ -10,5 +13,7 @@ export default createStore({
   actions: {
   },
   modules: {
+    cities,
+    form
   }
 })
