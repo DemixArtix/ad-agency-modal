@@ -11,7 +11,7 @@ export default {
       email: '',
       ['city_id']: ''
     } as IForm,
-    showForm: true as boolean,
+    showForm: false as boolean,
     response: null as string|null,
   },
   getters: {

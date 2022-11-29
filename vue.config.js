@@ -2,7 +2,7 @@ const { defineConfig } = require('@vue/cli-service')
 const path = require("path");
 module.exports = defineConfig({
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/ad-agency/'
+    ? '/ad-agency-modal/'
     : '/',
   transpileDependencies: true,
   chainWebpack(config) {
